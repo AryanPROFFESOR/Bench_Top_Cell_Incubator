@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.lck
+~*
+.history/
+*-backups/
+incubator_log.csv
+.vscode/

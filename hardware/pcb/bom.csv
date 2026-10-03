@@ -1,0 +1,22 @@
+Ref,Qty,Value,Footprint,Role
+A1,1,Raspberry Pi Pico W,RaspberryPi_Pico_W_SMD_HandSolder,Microcontroller
+U1,1,TPS5430DDA,SO-PowerPAD-8,12 V to 5 V buck converter
+U2,1,AMS1117-3.3,SOT-223,3.3 V LDO
+U3,1,MAX31865xAP,SSOP-20,RTD-to-digital converter
+U4,1,SHT4x,DFN-4 1.5x1.5,Humidity sensor
+D1,1,Schottky diode,0603 (see design review notes),Buck catch diode
+L1,1,33 uH,0603 (see design review notes),Buck inductor
+C2,1,0.01 uF,0603,Buck bootstrap
+C3,1,220 uF,CP_Elec_8x6.9,Bulk output capacitor
+"C4,C5,C6",3,10 uF,0603,Buck input / LDO input / LDO output
+"C7,C8",2,0.1 uF,0603,Sensor decoupling
+R1,1,31.6 k,0603,Buck feedback (upper)
+R2,1,10 k,0603,Buck feedback (lower)
+"R3,R4,R5,R6,R7",5,220 ohm,0603,Servo signal series resistors
+R8,1,4.3 k 0.1 %,0603,MAX31865 reference resistor
+"R9,R10",2,10 k,0603,I2C pull-ups
+"J1,J2,J3,J4,J5",5,1x3 pin header,2.54 mm,Servo outputs
+J6,1,1x4 pin header,2.54 mm,PT1000 4-wire input
+"H1,H2,H3,H4",4,Mounting hole,,Board mounting
+EXT,1,PT1000 Class A probe,,Temperature sensor (external)
+EXT,1,12 V DC supply,,Board power (external)
