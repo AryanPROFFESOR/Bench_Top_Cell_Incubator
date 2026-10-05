@@ -6,6 +6,23 @@
 
 <sub>SolidWorks walkthrough of the shell, chamber and ejecting tray (loops automatically). [Full-quality video](assets/video/incubator_cad_walkthrough_full.mp4).</sub>
 
+## Contents
+
+- [What this is](#what-this-is)
+- [Project status](#project-status)
+- [Mechanical design](#mechanical-design)
+- [Electronics](#electronics)
+  - [System architecture](#system-architecture)
+  - [Sensors](#sensors-and-what-they-do)
+  - [Communication protocols](#communication-protocols-and-interfaces)
+  - [Pin map](#pin-map)
+- [Software](#software)
+- [Repository layout](#repository-layout)
+- [Open questions for the lab](#open-questions-for-the-lab)
+- [Fit with the internship brief](#fit-with-the-internship-brief)
+- [Known limitations](#known-limitations)
+- [Author](#author) · [License](#license)
+
 ## What this is
 
 Live-cell time-lapse imaging needs cells held at physiological conditions (37 °C, 5 % CO2, high humidity) on the microscope stage for days.
